@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>MeuPortifolio</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.dltk.core.scriptbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.php.core.PHPNature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>css</name>
+			<type>2</type>
+			<location>C:/Users/Marques/eclipse-workspace/MeuPortifolio/css</location>
+		</link>
+		<link>
+			<name>js</name>
+			<type>2</type>
+			<location>C:/Users/Marques/eclipse-workspace/MeuPortifolio/js</location>
+		</link>
+		<link>
+			<name>js/img</name>
+			<type>2</type>
+			<location>C:/Users/Marques/eclipse-workspace/MeuPortifolio/img</location>
+		</link>
+	</linkedResources>
+</projectDescription>

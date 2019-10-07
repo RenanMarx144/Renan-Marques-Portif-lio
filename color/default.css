@@ -1,0 +1,92 @@
+a, a:hover {
+color:#88ef08;
+}
+
+
+/* Back to top button */
+.back-to-top {
+background: #9f0d72;
+  color: #fff;
+}
+
+
+.back-to-top:focus {
+background: #9f0d72;
+  color: #fff;
+}
+
+.vbox-next, .vbox-prev{
+  position: fixed;
+  top: 50%;
+  margin-top: -15px;
+  overflow: hidden;
+  cursor: pointer;
+  display: block;
+  width: 45px;
+  height: 45px;
+  z-index: 1050;
+}
+.vbox-next span, .vbox-prev span{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+  border-top-color: #B6B6B6;
+  border-right-color: #B6B6B6;
+  text-indent: -100px;
+  position: absolute;
+  top: 8px;
+  display: block;
+}
+.vbox-prev{
+  left: 15px;
+}
+.vbox-next{
+  right: 30px;
+}
+.vbox-prev span{
+  left: 10px;
+  -ms-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.vbox-next span{
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: 10px;
+}
+
+.navbar-default {
+background: rgba(6, 12, 34, 0.98);
+}
+
+.form-control:focus {
+  border-color: #003399;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 1px #003399;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .025), 0 0 1px #003399;
+}
+
+.service .carousel-indicators .active {
+background: #000;
+}
+
+.btn-theme {
+background: #003399;
+color:#fff;
+}
+
+.btn-theme {
+  transition: 0.3s
+}
+
+.btn-theme:hover,
+.btn-theme:focus {
+  background-color: #9f0d72!important;
+  border-color: #9f0d72!important;
+  color:#fff;
+}
+
+.contact-widget i {
+color:#9f0d72;    
+}
