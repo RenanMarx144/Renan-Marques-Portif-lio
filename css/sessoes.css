@@ -139,6 +139,18 @@ nav.menu2 li{
 	.info-me{
 	font-size: 55%;
 	}
+	.icon {
+		left:0%;
+		top: 160%;
+	}
+	.icon2 {
+		left:40%;
+		top: 160%;
+	}
+	.icon3 {
+		left:80%;
+		top: 160%;
+	}
 }
 
 @media ( max-width : 1004px) {
@@ -182,8 +194,25 @@ nav.menu2 li{
 		min-height: 70%;
 	}
 	nav.menu2 {
-		display: none;	
+		display: none;
+	}
+	.icon {
+		width: 12%;
+		left:0%;
+		top: 100%;
+	}
+	.icon2 {
+		width: 12%;
+		left:40%;
+		top: 100%;
+	}
+	.icon3 {
+		width: 12%;
+		left:80%;
+		top: 100%;
+	}	
 }
+
 
 @media ( max-width : 794px) {
 	.info-me{
@@ -203,6 +232,21 @@ nav.menu2 li{
 	}
 	.slide {
 		min-height: 50%;
+	}
+	.icon {
+		width: 12%;
+		left:0%;
+		top: 100%;
+	}
+	.icon2 {
+		width: 12%;
+		left:40%;
+		top: 100%;
+	}
+	.icon3 {
+		width: 12%;
+		left:80%;
+		top: 100%;
 	}
 }
 @media ( max-width : 400px) {

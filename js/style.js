@@ -1,10 +1,32 @@
+
+function mouseIn(img) {
+	var test = img;
+	if(test == "img"){
+		document.getElementById('img').src = "img/linkedin2.png";
+	}else if (test == 2){
+		document.getElementById('img2').src = "img/git2.png";
+	}else if(test == 3){
+		document.getElementById('img3').src = "img/hack2.png";
+	}
+}
+
+function mouseOut(img){
+	var test = img;
+	if (test == "img") {
+		document.getElementById('img').src = "img/linkedin.png";
+	}else if(test == 2){
+		document.getElementById('img2').src = "img/git1.png";
+	}else if(test == 3){
+		document.getElementById('img3').src = "img/hack1.png";
+	}	
+}
 $(document)
 		.ready(
 				function() {
 					// vaiaveis locais
 					var _containerBtn = $(".jbtn-back"), _containerInit = $(".inicio"), anime3d = $(".anime");
 					var _containerMenu = $('[data-container="jMenu"]'), _containerLink = $('[data-container="link"]');
-
+					
 					$('#bt_menu').click(function() {
 						$(".menu2").show(400);
 						$(".menu2").toggle(this.checked);
@@ -88,10 +110,11 @@ $(document)
 					_containerBtn.hover(function() {
 						_containerBtn.css("text-decoration", "none");
 						_containerBtn.css("transition-duration", "0.2s");
-						_containerBtn.css("opacity", "1");
+						_containerBtn.css("opacity", "1");				
 					});
 					_containerBtn.mouseleave(function() {
 						_containerBtn.css("transition-duration", "0.2s");
 						_containerBtn.css("opacity", "0.3");
 					});
+				
 				});

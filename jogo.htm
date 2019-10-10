@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>jogo</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-person.css" />
 	<script src="sprit.js"></script>
 	<style type="text/css">
 	body{
@@ -12,7 +13,11 @@
 	background-attachment: fixed;	
 	height: 100%;	
 	}
-	
+	.btt{
+		width: 20%;
+		height: 50%;
+		min-height: 50;
+	}
 		canvas
 		{
 			position: absolute;
@@ -26,6 +31,7 @@
 	</style>
 </head>
 <body>
+<div><a href="index.html"><button type="button" class="btt btn btn-dark">Volta</button></a></div>
 <script type="text/javascript">
 	//variaveis do jogo
 	var canvas, ctx, ALTURA, LARGURA, maxPulo=40, speed = 6, estadoAtual,

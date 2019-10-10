@@ -57,9 +57,7 @@ body {
 	width: 100%;
 	box-sizing: border-box;
 	box-shadow: 0 -1px 10px rgba(0,0,0,0.7);
-	transform-style: inherit;
-	
-	 
+	transform-style: inherit;	 
 }
 
 
@@ -111,8 +109,7 @@ figure.foto-come-legenda:hover{
 	transition-duration: 1s;
 	-webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
-	transform: scale(1.05);
-	        
+	transform: scale(1.05);	        
 	}
 
 figure.foto-come-legenda:hover figcaption{		
@@ -211,8 +208,7 @@ figure.foto-come-legenda1:hover{
 	transition-duration: 1s;
 	-webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
-	transform: scale(1.05);
-	        
+	transform: scale(1.05);	        
 	}
 
 figure.foto-come-legenda1:hover figcaption{		
@@ -225,5 +221,53 @@ figure.foto-come-legenda1:hover figcaption{
 }
 /*2 menu
 -------------------------------------------------------------------------------------------------------------*/
-
+@keyframes up{
+	0%, 20%, 60%, 100%{
+		-webkit-transform: translateY(0);
+		trnasform: translateY(0);
+	}
+	40%{
+		-webkit-transform: translateY(-20px);
+		trnasform: translateY(-20px);
+	}
+	80%{
+		-webkit-transform: translateY(-15px);
+		trnasform: translateY(-15px);
+	}
+}
+.icon{		
+	z-index: 10;
+	position: absolute;
+	float:left;
+	left:0;
+	top: 180%;
+	cursor: pointer;	
+}
+.icon2{		
+	z-index: 10;
+	position: absolute;
+	width: 16%;
+	float:left;
+	left:40%;
+	top: 180%;
+	cursor: pointer;	
+}
+.icon3{		
+	z-index: 10;
+	position: absolute;
+	width: 16%;
+	float:left;
+	left:80%;
+	top: 180%;
+	cursor: pointer;	
+}
+.icon:hover {
+		animation: up 1s;
+}
+.icon2:hover {
+	animation: up 1s;
+}
+.icon3:hover {
+	animation: up 1s;
+}
 
