@@ -129,8 +129,71 @@ nav.menu2 li{
 }
 
 
+/* sessão habilidades*/
+.habilidades{
+	background-color: aliceblue;
+}
+.progress {
+	top: 10%;
+	position: absolute;
+	float: left;
+	left: 2%;
+	background: #ccc;
+	border-radius: 12px;
+	height: 22px;
+	width: 37%;
+	padding: 0px;
+	margin: 0 auto;
+	cursor: pointer;
+  }
+  span.java{
+	float: left;
+	left: 2%;
+	  z-index: 30;
+	  position: absolute;
+	  top: 5%;
+  }
+  img.java{
+	float: left;
+	left: 40%;
+	  z-index: 30;
+	  position: absolute;
+	  top: 1%;
+	  height: 15%;
+  }
+.infoJava{
+	display: none;
+	position: absolute;
+	top: 15%;
+	float: left;
+	left: 2%;
+	width: 37%;
+	height: 20%;	
+	box-shadow: black 2px 2px 4px;
+	text-align: left;
+	margin: 5px;
+	padding: 10px;
+	
+	
+}
+.sobrejv{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 95%;
+}
+p.as{
+	font-size: 90%;
+	font-weight: bold;
+	color: crimson;
+}
 
 
+/* sessao cursos*/
+.cursos{
+	background-image: url(..//img/fundo-certificado.png);	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;		
+}
 
 @media ( max-width : 1254px) {
 	nav.menu ul {

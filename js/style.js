@@ -116,5 +116,14 @@ $(document)
 						_containerBtn.css("transition-duration", "0.2s");
 						_containerBtn.css("opacity", "0.3");
 					});
+
+					$(".progress").hover(function (e) { 
+						$('.infoJava').show(); // aparece o div						
+					});
+					$(".progress").mouseleave(function (e) { 
+						$('.infoJava').hide();						
+					});
+
+
 				
 				});

@@ -46,7 +46,7 @@ body {
 	z-index: -1;	
 }
 .sessao-2{	
-	background-color: white;		
+			
 }
 
 
@@ -76,7 +76,7 @@ h1.name-logo {
 
 figure.foto-come-legenda{		
 	position: absolute;
-	top:0;
+	top:15%;
 	float: left;
 	left:0;	
 	border: 3px solid #121212;
@@ -175,7 +175,7 @@ a.btn-back-link{
 }
 figure.foto-come-legenda1{		
 	position: absolute;
-	top:0;
+	top:15%;
 	float: left;
 	left:50%;	
 	border: 3px solid #121212;
