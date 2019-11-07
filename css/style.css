@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html{height: 100%; }
 body {
+	overflow-x: hidden;
 	background-image: radial-gradient(#242323,#121212);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -269,5 +270,41 @@ figure.foto-come-legenda1:hover figcaption{
 }
 .icon3:hover {
 	animation: up 1s;
+}
+.infor{
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 5%;	
+}
+.show{
+	width: 10%;
+	height: 8%;	
+	z-index: 10;
+	
+}
+.skl{
+	position: absolute;
+	top: 25%;
+	float: left;
+	left: 68%;
+	z-index: 10;
+}
+.skl p{
+	position: absolute;
+	top:0;
+	float: left;
+	left: 22%;
+}
+.skl1{	
+	text-align: center;
+	font-family: Arial;
+	font-size: 90%;
+	position: absolute;
+	top: 2%;
+	float: right;
+	right: 2%;
+	z-index: 11;
+
 }
 

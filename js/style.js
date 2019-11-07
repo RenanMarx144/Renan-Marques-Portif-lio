@@ -31,6 +31,7 @@ $(document)
 						$(".menu2").show(400);
 						$(".menu2").toggle(this.checked);
 					});
+
 					function infoInit() {
 						var cont = 6;
 						for (var i = 0; i < cont; i++) {
@@ -52,7 +53,7 @@ $(document)
 					// efeitos de navegações
 					_containerLink.click(function() {
 						var _sessao = $(this).data('link');
-						// console.log(_containerLink);
+						 //console.log(_containerLink);
 
 						function posicao(seletor) {
 							var _alturaMenu = parseInt(_containerMenu
@@ -117,12 +118,53 @@ $(document)
 						_containerBtn.css("opacity", "0.3");
 					});
 
-					$(".progress").hover(function (e) { 
-						$('.infoJava').show(); // aparece o div						
+					$(".java").click(function () { 
+						$('.infoJava').slideDown();
+						$('.css1').css("top","60%");						 					
 					});
-					$(".progress").mouseleave(function (e) { 
-						$('.infoJava').hide();						
+					$(".java").mouseout(function () { 
+						$('.infoJava').slideUp();
+						$('.css1').css("top","40%");						 					
 					});
+
+
+					$('.css').click(function(){
+						$('.infoCss').slideDown();
+					});
+					$('.css').mouseout(function () { 
+						$('.infoCss').slideUp();
+					});
+
+					function habilidades(){
+						$('.java1').addClass('anime-start1');
+						$('.css1').addClass('anime-start1');
+					}
+						
+					$(window).scroll(function() {
+						var scTop = $(this).scrollTop();
+						if (scTop > 1780) {
+							habilidades();						
+
+						} else {							
+							$('.css1').removeClass("anime-start1");
+							$('.java1').removeClass("anime-start1");
+
+						}
+									
+					});	
+					$(".show").click(function () {
+						 						
+						$(".skillLeft").animate({height: '80%'}, 1500);					
+						$(".skillLeft").css("opacity", "1");
+						$(".skillLeft").animate({left: '69%'});	
+																	
+					});		
+					$(".delet").click(function () { 
+						$(".skillLeft").animate({opacity: '0'},800);
+						$(".skillLeft").animate({height: '8%'});
+						$(".skillLeft").animate({left: '81%'});
+					});	
+
 
 
 				
