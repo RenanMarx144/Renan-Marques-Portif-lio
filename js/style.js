@@ -1,4 +1,3 @@
-
 function mouseIn(img) {
 	var test = img;
 	if(test == "img"){
@@ -118,20 +117,20 @@ $(document)
 						_containerBtn.css("opacity", "0.3");
 					});
 
-					$(".java").click(function () { 
+					$(".java1").click(function () { 
 						$('.infoJava').slideDown();
 						$('.css1').css("top","60%");						 					
 					});
-					$(".java").mouseout(function () { 
+					$(".java1").mouseout(function () { 
 						$('.infoJava').slideUp();
 						$('.css1').css("top","40%");						 					
 					});
 
 
-					$('.css').click(function(){
+					$('.css1').click(function(){
 						$('.infoCss').slideDown();
 					});
-					$('.css').mouseout(function () { 
+					$('.css1').mouseout(function () { 
 						$('.infoCss').slideUp();
 					});
 
@@ -152,8 +151,7 @@ $(document)
 						}
 									
 					});	
-					$(".show").click(function () {
-						 						
+					$(".show").click(function () {						 						
 						$(".skillLeft").animate({height: '80%'}, 1500);					
 						$(".skillLeft").css("opacity", "1");
 						$(".skillLeft").animate({left: '69%'});	
@@ -164,6 +162,22 @@ $(document)
 						$(".skillLeft").animate({height: '8%'});
 						$(".skillLeft").animate({left: '81%'});
 					});	
+
+					$(".tap1").click(function(){
+						$(".tap1").animate({left: '50%'}, 800);
+						$(".tap2").animate({left: '6%', top: '40%'}, 800);
+						$(".tap3").animate({left: '6%', top: '62%'}, 800);
+					});
+					$(".tap2").click(function(){
+						$(".tap1").animate({left: '6%'}, 800);
+						$(".tap2").animate({left: '50%', top: '18%'}, 800);
+						$(".tap3").animate({left: '6%', top: '62%'}, 800);
+					});
+					$(".tap3").click(function(){
+						$(".tap1").animate({left: '6%'}, 800);
+						$(".tap2").animate({left: '6%' , top: '40%'}, 800);
+						$(".tap3").animate({left: '50%', top: '18%'}, 800);
+					});
 
 
 

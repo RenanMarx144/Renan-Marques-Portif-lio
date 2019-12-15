@@ -155,7 +155,72 @@ nav.menu2 li{
 	color: black;
 	margin-left: -10%;
 }
+/* sessão objetivos*/
+.objetivos{
+	background-color: aliceblue;
+}
+.tap1{
+	cursor: pointer;
+	position: absolute;
+	top: 18%;
+	float: left;
+	left: 6%;
+	width: 10%;
 
+} 
+.tap2{
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	float: left;
+	left: 6%;
+	width: 10%;
+
+}
+.tap3{
+	cursor: pointer;
+	position: absolute;
+	top: 62%;
+	float: left;
+	left: 6%;
+	width: 10%;
+
+}
+.estagio{	
+	display: block;
+	width: 99%;
+	height: 130px;
+	border-radius: 50%;
+	box-shadow: black 2px 2px 4px;
+} 
+.estagio:hover {	 
+	transition-duration: 1s;
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+	transform: scale(1.05);	 }
+.estagio2{	
+	display: block;
+	width: 99%;
+	height: 125px;
+	border-radius: 50%;
+	box-shadow: black 2px 2px 4px;
+}
+.estagio2:hover {	 
+	transition-duration: 1s;
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+	transform: scale(1.05);	 }
+.estagio3{	
+	display: block;
+	width: 99%;
+	border-radius: 50%;
+	box-shadow: black 2px 2px 4px;
+}
+.estagio3:hover {	 
+	transition-duration: 1s;
+	-webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+	transform: scale(1.05);	 }
 
 /* sessão habilidades*/
 .habilidades{
