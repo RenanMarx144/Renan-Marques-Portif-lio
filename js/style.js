@@ -167,16 +167,28 @@ $(document)
 						$(".tap1").animate({left: '50%'}, 800);
 						$(".tap2").animate({left: '6%', top: '40%'}, 800);
 						$(".tap3").animate({left: '6%', top: '62%'}, 800);
+						$(".opcaoEs").css("opacity","0");
+						$(".etg").animate({opacity: '1'}, 800);
+						$(".formacao").animate({opacity: '0'}, 400);
+						$(".pjVida").animate({opacity: '0'}, 400);
 					});
 					$(".tap2").click(function(){
 						$(".tap1").animate({left: '6%'}, 800);
 						$(".tap2").animate({left: '50%', top: '18%'}, 800);
 						$(".tap3").animate({left: '6%', top: '62%'}, 800);
+						$(".opcaoEs").css("opacity","0");
+						$(".etg").animate({opacity: '0'}, 400);
+						$(".formacao").animate({opacity: '1'}, 800);
+						$(".pjVida").animate({opacity: '0'}, 400);
 					});
 					$(".tap3").click(function(){
 						$(".tap1").animate({left: '6%'}, 800);
 						$(".tap2").animate({left: '6%' , top: '40%'}, 800);
 						$(".tap3").animate({left: '50%', top: '18%'}, 800);
+						$(".opcaoEs").css("opacity","0");
+						$(".etg").animate({opacity: '0'}, 400);
+						$(".formacao").animate({opacity: '0'}, 400);
+						$(".pjVida").animate({opacity: '1'}, 800);
 					});
 
 

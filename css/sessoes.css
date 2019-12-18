@@ -222,6 +222,37 @@ nav.menu2 li{
         -ms-transform: scale(1.05);
 	transform: scale(1.05);	 }
 
+
+.opcaoEs{	
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	font-size: 20pt;
+	font-weight: bold;
+	opacity: 0.5;
+}
+.etg{
+	position: absolute;
+	top: 45%;
+	left: 28%;
+	font-size: 14pt;
+	opacity: 0;
+}
+.formacao{
+	position: absolute;
+	top: 40%;
+	left: 28%;
+	font-size: 14pt;
+    opacity: 0;
+}
+.pjVida{
+	position: absolute;
+	top: 30%;
+	left: 28%;
+	font-size: 14pt;
+	opacity: 0;
+}
+
 /* sessão habilidades*/
 .habilidades{
 	background-color: aliceblue;
